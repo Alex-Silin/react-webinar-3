@@ -1,0 +1,23 @@
+.CartModal-dialog {
+  padding: 0;
+  width: min(90%, 960px);
+  border-radius: 10px;
+  border: none;
+  overflow: hidden;
+}
+
+.CartModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CartModal-content {
+  padding: 70px 0 90px;
+}
